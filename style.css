@@ -16,26 +16,27 @@ body {
   text-align: left;
   display: inline-block;
   max-width: 100%;
+  padding: 0.5rem;
+  background-color: #ededed;
 }
 
 button {
-    padding: 1em;
-    background: transparent;
-    box-shadow: 2px 2px 4px #777;
-    margin-top: .5em;
-    border: 1px solid #777;
-    font-size: 1rem;
-    &.toggle{
-      background: rgba(red, .2);
-    }
-  }
-  canvas {
-    display: block;
-    position: relative;
-    border: 1px solid;    
-  }
-  img {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
+  padding: 1em;
+  box-shadow: 2px 2px 4px #777;
+  margin-top: .5em;
+  float: right;
+}
+button.toggle{
+  background: rgba(red, .2);
+}
+canvas {
+  display: block;
+  position: relative;
+  border: 1px solid;
+  background-color: #fff;
+}
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
